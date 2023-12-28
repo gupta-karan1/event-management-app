@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Event Snap - Event Management Platform",
   description:
     "Event Snap is an event management platform that allows you to create, manage, and share events with your friends and family.",
+  icons: {
+    icon: "/assets/images/logo.svg",
+  },
 };
 
 export default function RootLayout({
