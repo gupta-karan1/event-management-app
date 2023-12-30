@@ -7,10 +7,8 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
-  FormLabel,
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
@@ -70,7 +68,7 @@ const EventForm = ({ userId, type }: EventFormProps) => {
               <FormItem className="w-full">
                 <FormControl>
                   <Dropdown
-                    onChangeHanlder={field.onChange}
+                    onChangeHandler={field.onChange}
                     value={field.value}
                   />
                 </FormControl>
@@ -79,7 +77,6 @@ const EventForm = ({ userId, type }: EventFormProps) => {
             )}
           />
         </div>
-
         <Button type="submit">Submit</Button>
       </form>
     </Form>
