@@ -16,7 +16,7 @@ const MobileNav = () => {
             className="cursor-pointer"
           />
         </SheetTrigger>
-        <SheetContent className="flex flex-col gap-6">
+        <SheetContent className="flex flex-col gap-6 bg-white">
           <Image
             src="/assets/images/logo.svg"
             alt="Event Snap Logo"
